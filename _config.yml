@@ -170,13 +170,13 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
+  research:
     output: true
     permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  personal:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -207,7 +207,7 @@ defaults:
   # _teaching
   - scope:
       path: ""
-      type: teaching
+      type: research
     values:
       layout: single
       author_profile: true
@@ -225,7 +225,7 @@ defaults:
   # _portfolio
   - scope:
       path: ""
-      type: portfolio
+      type: personal
     values:
       layout: single
       author_profile: true
@@ -250,7 +250,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Chicago # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
