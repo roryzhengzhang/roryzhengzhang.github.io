@@ -80,8 +80,8 @@ analytics:
 # Site Author
 author:
   name             : "Zhang Zhang"
-  avatar           : "avatar.jpg"
-  bio              : "MS student and HCI researcher at GroupLens Research, University of Minnesota"
+  avatar           : "web_avatar.jpg"
+  bio              : "MS student in Computer Science and HCI researcher at GroupLens Research, University of Minnesota"
   location         : "Minneapolis, MN"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
