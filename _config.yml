@@ -80,9 +80,9 @@ analytics:
 # Site Author
 author:
   name             : "Zhang Zhang"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "avatar.jpg"
+  bio              : "MS student and HCI researcher at GroupLens Research, University of Minnesota"
+  location         : "Minneapolis, MN"
   employer         :
   googlescholar    : "http://yourfullgooglescholarurl.com"
   email            :
@@ -93,7 +93,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "academicpages"
+  github           : "roryzhengzhang"
   google_plus      :
   keybase          :
   instagram        :
