@@ -12,3 +12,4 @@ Zheng Zhang is current MS student in computer science and junior HCI researcher 
 Recent News
 ============
 * One co-authored paper: [Explaining Decision-Making Algorithm through UI: Strategies to Help Non-Expert Stakeholders](files/algorithmexplanation-chi19.pdf) has been submitted to CHI 2019! (anonymous for under review status concern)
+* Yay! New personal homepage now takes off! Still working on fleshing it out :)
