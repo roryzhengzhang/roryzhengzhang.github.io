@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: single
 title: "CV"
 permalink: /cv/
 author_profile: true
@@ -9,5 +9,4 @@ redirect_from:
 
 {% include base_path %}
 
-==========
-You can download my [CV](files/Zheng Zhang CV.pdf) here!
+### You can download my [CV](files/Zheng Zhang CV.pdf) here!
