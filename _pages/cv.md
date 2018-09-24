@@ -6,6 +6,4 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
-
 ### You can download my [CV](files/Zheng Zhang CV.pdf) here!
