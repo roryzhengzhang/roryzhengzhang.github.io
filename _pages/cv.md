@@ -6,4 +6,4 @@ redirect_from:
   - /resume
 ---
 
-You can download my [CV](files/Zheng Zhang CV.pdf) here!
+You can download my [CV](https://google.com) here!
