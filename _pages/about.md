@@ -1,6 +1,5 @@
 ---
 permalink: /
-title: "Zheng Zhang - MS Student and HCI Researcher at UMN"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
