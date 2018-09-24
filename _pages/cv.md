@@ -9,4 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-### You can download my [CV](files/Zheng Zhang CV.pdf) here!
+==========
+You can download my [CV](files/Zheng Zhang CV.pdf) here!
