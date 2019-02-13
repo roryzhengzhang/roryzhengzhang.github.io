@@ -3,8 +3,6 @@ title: "Explaining Decision-Making Algorithm through UI: Strategies to Help Non-
 collection: publications
 permalink: /publication/algorithmexplanation-chi19
 excerpt: 'This paper has been submitted to CHI 2019'
-date: 2018-09-21
-venue: 'CHI submitted'
+venue: 'CHI'19
 paperurl: '/files/algorithmexplanation-chi19.pdf'
 ---
-[Download paper here](/files/algorithmexplanation-chi19.pdf)
