@@ -28,10 +28,9 @@ layout: default
               class=profile_image_class
               alt=page.profile.image -%}
             {% endif -%}
-            {%- if page.profile.address %}
-            <div class="address">
-              {{ page.profile.address }}
-            </div>
+            {%- if page.profile.twitter %}
+              <a href="https://twitter.com/{{ page.profile.twitter }}"><i class="fa-brands fa-twitter-square" aria-hidden="true"></i> Twitter</a>
+              <!-- <i class="fa-brands fa-twitter">{{ page.profile.twitter }}</i> -->
             {%- endif %}
           </div>
           {%- endif %}
