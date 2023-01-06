@@ -31,16 +31,16 @@ layout: default
       {% endif -%}
       <ul class="author__urls social-icons">
         {%- if site.twitter_username %}
-          <a href="https://twitter.com/{{ page.profile.twitter }}" title="Twitter"><i class="fas fa-twitter"></i> Twitter</a>
+          <li><a href="https://twitter.com/{{ page.profile.twitter }}" title="Twitter"><i class="fab fa-twitter"></i>Twitter</a></li>
         {%- endif %}
         {%- if site.email %}
-          <a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i> Email</a>
+          <li><a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i> Email</a></li>
         {%- endif %}
         {%- if site.scholar_userid %}
-        <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Scholar"><i class="ai ai-google-scholar"></i> Email</a>
+          <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Scholar"><i class="ai ai-google-scholar"></i> Email</a></li>
         {%- endif %}
         {%- if site.github_username -%}
-        <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
+          <li><a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i>GitHub</a></li>
         {% endif %}
       </ul>
     </div>
