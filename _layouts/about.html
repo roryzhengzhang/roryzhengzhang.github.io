@@ -36,7 +36,7 @@ layout: default
                 class="fab fa-twitter"></i>&nbsp;&nbsp;Twitter</a></li>
           {%- endif %}
           {%- if site.email %}
-          <li><a href="mailto:{{ site.email }}" title="Email"><i
+          <li><a href="mailto:{{ site.email | encode_email }}" title="Email"><i
                 class="fas fa-envelope"></i>&nbsp;&nbsp;Email</a></li>
           {%- endif %}
           {%- if site.scholar_userid %}
