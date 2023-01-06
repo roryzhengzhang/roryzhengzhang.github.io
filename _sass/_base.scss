@@ -21,6 +21,10 @@ table {
   }
 }
 
+.social-icons {
+  list-style: none
+}
+
 a, table.table a {
   color: var(--global-theme-color);
   &:hover {
