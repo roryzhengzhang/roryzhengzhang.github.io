@@ -6,10 +6,6 @@
 // Dimensions
 $max-content-width: {{ site.max_width }};
 
-@import "vendor/font-awesome/fontawesome";
-@import "vendor/font-awesome/solid";
-@import "vendor/font-awesome/brands";
-
 @import
   "variables",
   "themes",
