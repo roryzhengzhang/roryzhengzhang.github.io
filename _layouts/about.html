@@ -29,20 +29,26 @@ layout: default
       class=profile_image_class
       alt=page.profile.image -%}
       {% endif -%}
-      <ul style="list-style: none">
-        {%- if site.twitter_username %}
-          <li><a href="https://twitter.com/{{ page.profile.twitter }}" title="Twitter"><i class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
-        {%- endif %}
-        {%- if site.email %}
-          <li><a href="mailto:{{ site.email | encode_email }}" title="Email"><i class="fas fa-envelope"></i>&nbsp;Email</a></li>
-        {%- endif %}
-        {%- if site.scholar_userid %}
-          <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Scholar"><i class="ai ai-google-scholar"></i>&nbsp;Google Scholar</a></li>
-        {%- endif %}
-        {%- if site.github_username -%}
-          <li><a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i>&nbsp;GitHub</a></li>
-        {% endif %}
-      </ul>
+      <div style="text-align: center;">
+        <ul style="list-style: none; display: inline-block;">
+          {%- if site.twitter_username %}
+          <li><a href="https://twitter.com/{{ page.profile.twitter }}" title="Twitter"><i
+                class="fab fa-twitter"></i>&nbsp;Twitter</a></li>
+          {%- endif %}
+          {%- if site.email %}
+          <li><a href="mailto:{{ site.email | encode_email }}" title="Email"><i
+                class="fas fa-envelope"></i>&nbsp;Email</a></li>
+          {%- endif %}
+          {%- if site.scholar_userid %}
+          <li><a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Scholar"><i
+                class="ai ai-google-scholar"></i>&nbsp;Google Scholar</a></li>
+          {%- endif %}
+          {%- if site.github_username -%}
+          <li><a href="https://github.com/{{ site.github_username }}" title="GitHub"><i
+                class="fab fa-github"></i>&nbsp;GitHub</a></li>
+          {% endif %}
+        </ul>
+      </div>
     </div>
     {%- endif %}
 
