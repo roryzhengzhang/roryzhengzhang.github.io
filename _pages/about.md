@@ -10,7 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   twitter: roryzzhang
   email: zzhang37@nd.edu
-  google_scholar: https://scholar.google.com/citations?user=-oRX1vUAAAAJ&hl=en
+  google_scholar: https://scholar.google.com/citations?user=p8pwjGsAAAAJ&hl=en&oi=ao
 
   # address: >
   #   <p>555 your office number</p>
